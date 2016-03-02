@@ -2,7 +2,7 @@ import React from 'react';
 import {DragSource, DropTarget} from 'react-dnd';
 import ItemTypes from '../constants/itemTypes';
 
-const noteSource= {
+const noteSource = {
   beginDrag(props) {
     return {
       id: props.id
